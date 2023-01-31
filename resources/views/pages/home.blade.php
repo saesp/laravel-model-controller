@@ -1,5 +1,12 @@
 @extends('layouts.main-layout')
 
 @section('content')
-    <h1>Hello by {{$name}}</h1>
+<ul>
+    @foreach ($movies as $movie)
+    <li>
+        {{$movies['title']}}
+    </li>
+    @endforeach
+</ul>
+
 @endsection

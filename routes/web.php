@@ -7,6 +7,6 @@ use Illuminate\Support\Facades\Route;
 // che viene gestita dal controller PageController
 // più precisamente dalla public function index() all’interno di PageController
 
-use App\Http\Controllers\Folder\MainController;
+use App\Http\Controllers\MainController;
 
 Route::get('/', [MainController::class, 'index']);
