@@ -4,7 +4,7 @@
 <ul>
     @foreach ($movies as $movie)
     <li>
-        {{$movies['title']}}
+        {{$movie['title']}}
     </li>
     @endforeach
 </ul>
